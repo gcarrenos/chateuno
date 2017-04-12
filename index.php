@@ -127,7 +127,7 @@
                         }
                         }).done(function(data){
                             if(data.success == true) {
-                                var src = "http://livestream.com/accounts/12844744/events/4494171/player";
+                                var src = "https://livestream.com/accounts/12844744/events/4494171/player";
                                 $("iframe").attr('src',src); 
                                 $(".form-dni").hide();
                             } 
