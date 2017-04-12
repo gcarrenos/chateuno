@@ -36,7 +36,7 @@ class App
 
       usuario = {}
       usuario.username = name
-      $.post('http://plataforma.biialab.org/api/register.json', usuario)
+      $.post('https://plataforma.biialab.org/api/register.json', usuario)
         .always (data) =>
           @usuario_id = data.userid
 
@@ -57,7 +57,7 @@ class App
     $('#questions_box').show()
 
   get_questions: () ->
-    $.getJSON("http://plataforma.biialab.org/aula/jupiter/apiNew.php?action=getChatConversation&courseId=1308&sessionId=1&ide=126288")
+    $.getJSON("https://plataforma.biialab.org/aula/jupiter/apiNew.php?action=getChatConversation&courseId=1308&sessionId=1&ide=126288")
     .always (data) =>
       $('#questions').empty()
       if data?
@@ -88,7 +88,7 @@ class App
 
     if params isnt ''
       console.log(@usuario_id)
-      $.post("http://plataforma.biialab.org/aula/jupiter/apiNew.php?action=newChatMessage&ide=#{@usuario_id}", params)
+      $.post("https://plataforma.biialab.org/aula/jupiter/apiNew.php?action=newChatMessage&ide=#{@usuario_id}", params)
       .always (data) =>
         $('#question_text').val ''
         clearTimeout @timeout_questions
