@@ -1,0 +1,19 @@
+/* 
+    Document   : modal
+    Created on : 10/08/2015, 05:40:14 PM
+    Author     : jcjurado
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+.login_nav
+{
+    cursor: pointer;
+}
+.registro_nav
+{
+    cursor: pointer;
+}

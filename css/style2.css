@@ -1,0 +1,172 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tt, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
+    list-style-type: none;
+}
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,300,700);
+body { margin: 0}
+.form-dni input {
+box-sizing: content-box;
+}
+#alert_box {
+    display: block;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+#alert_text {
+    background: #e30613;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 0;
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+.field {
+    width: 330px;
+    display: block;
+    float: left;
+    margin-right: 10px;
+}
+#register_fields p {
+    color: #1e2e6e;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+input {
+    background: #f7f7f7;
+    padding: 8px 15px;
+    color: #333;
+    font-size: 14px;
+    height: 22px;
+    border: solid 1px transparent;
+    display: block;
+    width: 290px;
+}
+#enter, #send_question {
+    background: #054367;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    display: block;
+    width: 300px;
+    float: left;
+    border: solid 1px transparent;
+    height: 40px;
+    padding: 8px 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    cursor: pointer;
+}
+#enter:hover, #send_question:hover {
+    background: #94caff;
+    color: #054367;
+}
+#questions_box {
+    position: relative;
+    max-width: 640px;
+}
+#question_form {
+    overflow: hidden;
+    display: block;
+    margin-bottom: 20px;
+}
+#question_text {
+    box-sizing: content-box;
+    width: 450px;
+    float: left;
+    height: 27px;
+}
+#send_question {
+    width: 158px;
+    height: 45px;
+    margin: 0;
+}
+h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #1e2e6e;
+    display: block;
+    font-size: 16px;
+    display: block;
+    margin-bottom: 10px;
+    border-bottom: solid 2px #f7f7f7;
+    padding-bottom: 6px;
+}
+#question_form p {
+    color: #1e2e6e;
+    font-size: 16px;
+    font-weight: 300;
+    display: block;
+    margin-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+input, button {
+    transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+}
+input:focus, button:focus {
+    box-shadow: none;
+    border: solid 1px #94caff;
+    outline: none;
+}
+#questions {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    height: 220px;
+    overflow: auto;
+}
+#questions li {
+    display: block;
+    overflow: hidden;
+    background: #f7f7f7;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#questions li:nth-child(2n+1) {
+    background: #fff;
+}
+#questions li span {
+    font-size: 16px;
+    color: #1e2e6e;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+}
+#questions li p {
+    color: #333;
+    font-size: 13px;
+    display: block;
+    margin: 0;
+}
+#logout {
+    text-decoration: none;
+    font-size: 12px;
+    color: #1e2e6e;
+    font-weight: bold;
+    display: table;
+    position: absolute;
+    top: -20px;
+    right: 0;
+    transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
+    -ms-transition: all 0.1s ease-in-out;
+}
+#logout:hover {
+    color: #1e2e6e;
+    text-decoration: underline;
+}
