@@ -127,7 +127,7 @@
                         }
                         }).done(function(data){
                             if(data.success == true) {
-                                var src = "<?php echo $this->uriVideo ?>";
+                                var src = "http://livestream.com/accounts/12844744/events/4494171/player";
                                 $("iframe").attr('src',src); 
                                 $(".form-dni").hide();
                             } 
